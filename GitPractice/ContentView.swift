@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            var textView = "Change 3"
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
@@ -21,6 +20,7 @@ struct ContentView: View {
                 .font(.headline)
                 .fontWeight(.heavy)
                 .foregroundColor(Color.orange)
+            Text("Change 3")
         }
         .padding()
     }
